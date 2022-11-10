@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <div id="root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Show Project | Harerimana Dieudonne github.com/diegoharera</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- Search Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+  <!-- <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.css"> -->
+</head>
+
+<body>
+  <div id="root">
+    <div class="search-container">
+      <form id="search-form">
+        <input type="text" placeholder="Search.." name="search" id="search-input">
+        <button type="submit" id="submit"><i class="fa fa-times"></i></i></button>
+      </form>
+      <h3 id="results">Displaying 73/73 episodes</h3>
+      <select name="movies" id="select-show" class="form-select" aria-label="Default select example">
+        <option value="All episodes" selected>All episodes</option>
+      </select>
     </div>
+    </div>
+  </div>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
+  <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+  <script src="episodes.js"></script>
 
-    <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
-  </body>
+  <!-- Loads YOUR javascript code -->
+  <script src="script.js"></script>
+  <!-- <script src="app.js"></script> -->
+
+  <script>
+    
+  </script>
+</body>
+
 </html>
